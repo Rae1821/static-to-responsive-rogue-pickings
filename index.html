@@ -10,35 +10,32 @@
     <link rel="stylesheet" href="css/main.css">
     <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Galada&display=swap" rel="stylesheet">
+    <!-- Font Awesome Icons -->
+    <script src="https://kit.fontawesome.com/ad692869dc.js" crossorigin="anonymous"></script>
 </head>
 
 <body>
     <div class="container">
-        <header>
+        <header class="content-wrapper">
             <h1><span>rogue</span> pickings</h1>
-            <nav>
-                <ul>
-                    <li>
-                        <a href="">About</a>
-                    </li>
-                    <li>
-                        <a href="">Menu</a>
-                    </li>
-                    <li>
-                        <a href="">Locations</a>
-                    </li>
-                    <li>
-                        <a href="">Gallery</a>
-                    </li>
-                    <li>
-                        <a href="">Reviews</a>
-                    </li>
-                    <li>
-                        <a href="">Contact</a>
-                    </li>
-                </ul>
-            </nav>
+            <!-- Navigation -->
+            <div class="topnav">
+              <div id="myLinks">
+                <a href="#">About</a>
+                <a href="#">Menu</a>
+                <a href="#">Locations</a>
+                <a href="#">Gallery</a>
+                <a href="#">Reviews</a>
+                <a href="#">Contact</a>
+              </div>
+            <!-- Hamburger Menu -->
+                <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+                  <i class="fa-solid fa-bars"></i>
+                </a>
+            </div>
         </header>
+
+        <!-- Top Section -->
         <section class="top-section">
             <div class="main-image"><img src="img/download.jpg" alt="green beans" /></div>
             <div class="main-title">
@@ -49,6 +46,8 @@
                     locations to see where you can find us.</p>
             </div>
         </section>
+
+        <!-- Bottom 3 Column Section -->
         <section class="bottom-section">
             <div class="section-one">
                 <h3>Today's Specials</h3>
@@ -71,10 +70,14 @@
                     (415) 206-8000 </p>
             </div>
         </section>
+
+        <!-- Footer -->
         <footer>
             <h3>Powered by lots of <span>fresh</span> ingredients.</h3>
         </footer>
     </div>
+
+    <script src="js/main.js"></script>
 </body>
 
 </html>
