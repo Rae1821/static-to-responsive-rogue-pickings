@@ -16,11 +16,6 @@ body {
 .container{
 	max-width: 1200px;
 	width: 90%;
-	display: flex;
-	justify-content: center;
-	align-items: center;
-	flex-flow: row wrap;
-
 }
 
 h1,
@@ -50,9 +45,8 @@ p {
 
 header {
 	border-bottom: 3px solid #77a466;
-	text-align: center;
 	display: flex;
-	justify-content: space-around;
+	justify-content: space-between;
 	align-items: center;
 	flex-flow: row wrap;
 	width: 100%;
@@ -60,7 +54,8 @@ header {
 
 header h1 {
 	margin: 0;
-	padding: 38px 20px 20px 20px;
+	padding: 38px 20px 20px 0px;
+	
 
 }
 header h1 span {
@@ -72,6 +67,7 @@ header h1 span {
 header .content-wrapper {
 	display: flex;
 	justify-content: space-between;
+	align-items: center;
 	flex-flow: row wrap;
 }
 
@@ -90,7 +86,7 @@ header .content-wrapper {
 .topnav a {
 	color:#77a466;
 	text-decoration: none;
-	font-size: 0.875em;
+	font-size: 1.5em;
 	font-weight: 700;
 	padding: 10px 0;
 	display: block;
@@ -103,12 +99,15 @@ header .content-wrapper {
 	position: absolute;
 	right: 0;
 	top: 0;
+	
 }
 
+a.icon {
+	padding-top: 30px;
+}
 
 /* Add a background color on mouse-over */
 .topnav a:hover {
-	background: #77a466;
 	color: #222;
 }
 
@@ -191,7 +190,7 @@ footer span {
 	font-family: 'Galada', cursive;
 	text-transform: lowercase;
 	color: #77a466;
-	font-size: 0.875em;
+	font-size: 1.75em;
 }
 
 
@@ -205,13 +204,15 @@ header {
 	display: flex;
 	justify-content:space-between;
 	flex-flow: row nowrap;
+	padding: 30px 0 0 0;
 }
 
 header h1 {
-	width: 40%;
+	width: 35%;
 	padding: 10px 0;
 	border-bottom: none;
 	text-align: left;
+	font-size: 1.5em;
 }
 
 /* Navigation Menu Style */
@@ -225,13 +226,15 @@ header h1 {
 
 .topnav {
 	background: #fff;
-	width: 55%;
+	width: 65%;
 	text-transform: uppercase;
+	text-align: right;
 }
 
 .topnav a {
-	padding: 10px;
+	padding: 5px;
 	display: block;
+	font-size: 0.875em;
 }
 
 /* Bottom Section Styles */
@@ -276,6 +279,7 @@ header h1 {
 
 header h1 {
 	width: 50%;
+	font-size: 1.875em;
 }
 
 .topnav {
